@@ -3,7 +3,6 @@ def lomutoPartition(arr,l,r):
     # Input: An subarray arr[l..r] of arr[0..n-1], defined by its left and right
     #  indices l and r (l <= r)
     # Output: Partition of arr[l..r] and the new position of the pivot
-    # This is just a test
     pivot = arr[l]	 # pivot is the first element
     s = l
     for i in range(l + 1, r):
