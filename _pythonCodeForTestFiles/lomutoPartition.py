@@ -17,10 +17,10 @@ def lomutoPartition(arr,l,r):
     return s
 
 def quickSort(arr, l, r):
-# Sorts a subarray by quicksort
-# Input: Subarray of array arr[0 .. n -1] defined by its left and right
-# indices l and r
-# Output: Subarray arr[l..r] sorted in nondecreasing order
+    # Sorts a subarray by quicksort
+    # Input: Subarray of array arr[0 .. n -1] defined by its left and right
+    # indices l and r
+    # Output: Subarray arr[l..r] sorted in nondecreasing order
     if l < r:
         s = lomutoPartition(arr,l,r)
         # quickSort(arr,l,s-1)          # this code is same with the book but it does not work
