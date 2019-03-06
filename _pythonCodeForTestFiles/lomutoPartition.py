@@ -1,3 +1,5 @@
+#This code creates Lomuto Partition written in Levitin's book.
+
 def lomutoPartition(arr,l,r):
     # Partitions subarray by Lomuto algorithm using first element as pivot
     # Input: An subarray arr[l..r] of arr[0..n-1], defined by its left and right
