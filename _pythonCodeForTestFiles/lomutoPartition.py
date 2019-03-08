@@ -28,7 +28,7 @@ def quickSortLomutoWrapper(arr, l, r):
     if l < r:
         s = lomutoPartition(arr,l,r)
         # quickSort(arr,l,s-1)          # this code is same with the book but it does not work
-        quickSortLomutoWrapper(arr,l,s-1)                # fixed code, can you explain what is different
+        quickSortLomutoWrapper(arr,l,s)                # fixed code, can you explain what is different
         quickSortLomutoWrapper(arr,s+1,r)
 
 
