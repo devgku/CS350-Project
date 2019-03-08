@@ -8,14 +8,6 @@ def randNums(n):
        file.write("%d\n" % (random.randint(1,100000)))
 
 # add name to file. Will generate n integers separated by \n 
-file = open("_a1_10Ints.txt", "w+")
-randNums(10)                
-file.close()
-
-file = open("_a1_100Ints.txt", "w+")
-randNums(100)                
-file.close()
-
 file = open("_a1_1000Ints.txt", "w+")
 randNums(1000)                
 file.close()
@@ -30,6 +22,14 @@ file.close()
 
 file = open("_a1_1000000Ints.txt", "w+")
 randNums(1000000)                
+file.close()
+
+file = open("_a1_5000000Ints.txt", "w+")
+randNums(5000000)                
+file.close()
+
+file = open("_a1_10000000Ints.txt", "w+")
+randNums(10000000)                
 file.close()
 
 file = open("special.txt", "w+")

@@ -8,14 +8,6 @@ def randNums(n):
        file.write("%d\n" % (random.randint(0,1)))
 
 # add name to file. Will generate n integers separated by \n 
-file = open("_10_binaryDigits.txt", "w+")
-randNums(10)                
-file.close()
-
-file = open("_100_binaryDigits.txt", "w+")
-randNums(100)                
-file.close()
-
 file = open("_1000_binaryDigits.txt", "w+")
 randNums(1000)                
 file.close()
@@ -30,6 +22,14 @@ file.close()
 
 file = open("_1000000_binaryDigits.txt", "w+")
 randNums(1000000)                
+file.close()
+
+file = open("_5000000_binaryDigits.txt", "w+")
+randNums(5000000)                
+file.close()
+
+file = open("_10000000_binaryDigits.txt", "w+")
+randNums(10000000)                
 file.close()
 
 file = open("_50_binaryDigits.txt", "w+")

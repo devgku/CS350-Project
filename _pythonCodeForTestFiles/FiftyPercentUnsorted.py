@@ -37,53 +37,30 @@ file.close()
 # add name to file. Will generate n integers separated by \n 
 
 #pick a file to work with
-file = open("_a1_10Ints.txt", "r")
-if file.mode == 'r':
-   contents = file.read()
-file.close()
-
-#creates a file to 
-file = open("_fiftyPctUnsorted_10Ints.txt", "w+")
-tenPctUnsorted(10, contents)                
-file.close()
-
-
-
-file = open("_a1_100Ints.txt", "r")
-if file.mode == 'r':
-   contents = file.read()
-file.close()
-
-
-#pick a file to work with
-file = open("_fiftyPctUnsorted_100Ints.txt", "w+")
-tenPctUnsorted(100, contents)                
-file.close()
-
-
 file = open("_a1_1000Ints.txt", "r")
 if file.mode == 'r':
    contents = file.read()
 file.close()
 
-
+#creates a file to 
 file = open("_fiftyPctUnsorted_1000Ints.txt", "w+")
 tenPctUnsorted(1000, contents)                
 file.close()
 
 
-#pick a file to work with
+
 file = open("_a1_10000Ints.txt", "r")
 if file.mode == 'r':
    contents = file.read()
 file.close()
 
+
+#pick a file to work with
 file = open("_fiftyPctUnsorted_10000Ints.txt", "w+")
 tenPctUnsorted(10000, contents)                
 file.close()
 
 
-#pick a file to work with
 file = open("_a1_100000Ints.txt", "r")
 if file.mode == 'r':
    contents = file.read()
@@ -101,7 +78,30 @@ if file.mode == 'r':
    contents = file.read()
 file.close()
 
-
 file = open("_fiftyPctUnsorted_1000000Ints.txt", "w+")
-tenPctUnsorted(1000000, contents)
+tenPctUnsorted(1000000, contents)                
+file.close()
+
+
+#pick a file to work with
+file = open("_a1_5000000Ints.txt", "r")
+if file.mode == 'r':
+   contents = file.read()
+file.close()
+
+
+file = open("_fiftyPctUnsorted_5000000Ints.txt", "w+")
+tenPctUnsorted(5000000, contents)                
+file.close()
+
+
+#pick a file to work with
+file = open("_a1_10000000Ints.txt", "r")
+if file.mode == 'r':
+   contents = file.read()
+file.close()
+
+
+file = open("_fiftyPctUnsorted_10000000Ints.txt", "w+")
+tenPctUnsorted(10000000, contents)
 file.close()
