@@ -1,7 +1,7 @@
 import time
 
 #pick a file to work with
-file = open("tenThousandInts.txt", "r")
+"""file = open("tenThousandInts.txt", "r")
 if file.mode == 'r':
     contents = file.read()
 
@@ -10,7 +10,7 @@ array = contents.split()
 #can use this library function to confirm the sort, if desired
 #a0 = sorted(map(int, array))
 #print(a0)
-
+"""
 
 # Implementation of heap Sort from CLRM book Ch.6   
 # To heapSort subtree rooted at index i. 
@@ -52,11 +52,11 @@ def heapSort(arr):
         maxHeapify(arr, i, 0) 
   
 
-# Driver code to test above 
+"""# Driver code to test above 
 start2 = time.time()
 heapSort(array)
 end2 = time.time()
 print("time elapsed: " + str(float(end2 - start2)))
 
 print("heapSort of list")
-print(array)
+print(array)"""
