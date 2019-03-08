@@ -3,6 +3,8 @@
 from inputData import arraySetBinaryDigits, arraySetRevSorted, arraySetRandom, arraySetFiftyUnsorted, arraySetTenUnSorted
 import time
 import sys
+import datetime
+
 from heapSort import heapSort
 from mergeSort import mergeSort
 from hoarePartition import quickSortHoare
@@ -18,10 +20,16 @@ array = arraySetBinaryDigits        #change the variable to switch to different 
 #array = arraySetFiftyUnsorted          #comment out to use
 #array = arraySetTenUnSorted            #comment out to use
 
-number_of_array = len(array)        #set the range of the array
+now = datetime.datetime.now()           #print the time and date for the record
+print now
 
+number_of_array = len(array)        #set the range of the array
 for i in range (0, number_of_array):
     start = time.time()
-    quickSortHoare(array[i])
+    sorted(array[i])
+    #mergeSort(array[i])
+    #quickSortHoare(array[i])
+    #quickSortLomuto(array[i])
+    #quickSortOpenSource(array[i])
     end = time.time()
     print (end-start),
