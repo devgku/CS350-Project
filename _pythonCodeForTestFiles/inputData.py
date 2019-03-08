@@ -25,6 +25,23 @@ file35 = open("_100000_binaryDigits.txt", "r")
 if file35.mode == 'r':
     contents35 = file35.read()
 
+file36 = open("_200000_binaryDigits.txt", "r")
+if file36.mode == 'r':
+    contents36 = file36.read()
+
+file37 = open("_400000_binaryDigits.txt", "r")
+if file37.mode == 'r':
+    contents37 = file37.read()
+
+file38 = open("_600000_binaryDigits.txt", "r")
+if file38.mode == 'r':
+    contents38 = file38.read()
+
+file39 = open("_800000_binaryDigits.txt", "r")
+if file39.mode == 'r':
+    contents39 = file39.read()
+
+
 file6 = open("_1000000_binaryDigits.txt", "r")
 if file6.mode == 'r':
     contents6 = file6.read()
@@ -34,7 +51,6 @@ if file7.mode == 'r':
     contents7 = file7.read()
 
 file8 = open("__100_revSorted_ints.txt", "r")
-
 if file8.mode == 'r':
     contents8 = file8.read()
 
@@ -49,6 +65,22 @@ if file10.mode == 'r':
 file11 = open("__100000_revSorted_ints.txt", "r")
 if file11.mode == 'r':
     contents11 = file11.read()
+
+file40 = open("__200000_revSorted_ints.txt", "r")
+if file40.mode == 'r':
+    contents40 = file40.read()
+
+file41 = open("__400000_revSorted_ints.txt", "r")
+if file41.mode == 'r':
+    contents41 = file41.read()
+
+file42 = open("__600000_revSorted_ints.txt", "r")
+if file42.mode == 'r':
+    contents42 = file42.read()
+
+file43 = open("__800000_revSorted_ints.txt", "r")
+if file43.mode == 'r':
+    contents43 = file43.read()
 
 file12 = open("__1000000_revSorted_ints.txt", "r")
 if file12.mode == 'r':
@@ -82,6 +114,22 @@ file19 = open("_a1_100000Ints.txt", "r")
 if file19.mode == 'r':
     contents19 = file19.read()
 
+file44 = open("_a1_20000Ints.txt", "r")
+if file44.mode == 'r':
+    contents44 = file44.read()
+
+file45 = open("_a1_400000Ints.txt", "r")
+if file45.mode == 'r':
+    contents45 = file45.read()
+
+file46 = open("_a1_600000Ints.txt", "r")
+if file46.mode == 'r':
+    contents46 = file46.read()
+
+file47 = open("_a1_800000Ints.txt", "r")
+if file47.mode == 'r':
+    contents47 = file47.read()
+
 file20 = open("_a1_1000000Ints.txt", "r")
 if file20.mode == 'r':
     contents20 = file20.read()
@@ -105,6 +153,22 @@ if file24.mode == 'r':
 file25 = open("_fiftyPctUnsorted_100000Ints.txt", "r")
 if file25.mode == 'r':
     contents25 = file25.read()
+
+file48 = open("_fiftyPctUnsorted_200000Ints.txt", "r")
+if file48.mode == 'r':
+    contents48 = file48.read()
+
+file49 = open("_fiftyPctUnsorted_400000Ints.txt", "r")
+if file49.mode == 'r':
+    contents49 = file49.read()
+
+file50 = open("_fiftyPctUnsorted_600000Ints.txt", "r")
+if file50.mode == 'r':
+    contents50 = file50.read()
+
+file51 = open("_fiftyPctUnsorted_800000Ints.txt", "r")
+if file51.mode == 'r':
+    contents51 = file51.read()
 
 file26 = open("_fiftyPctUnsorted_1000000Ints.txt", "r")
 if file26.mode == 'r':
@@ -133,6 +197,22 @@ if file31.mode == 'r':
 file32 = open("_tenPctUnsorted_100000Ints.txt", "r")
 if file32.mode == 'r':
     contents32 = file32.read()
+
+file52 = open("_tenPctUnsorted_200000Ints.txt", "r")
+if file52.mode == 'r':
+    contents52 = file52.read()
+
+file53 = open("_tenPctUnsorted_400000Ints.txt", "r")
+if file53.mode == 'r':
+    contents53 = file53.read()
+
+file54 = open("_tenPctUnsorted_600000Ints.txt", "r")
+if file54.mode == 'r':
+    contents54 = file54.read()
+
+file55 = open("_tenPctUnsorted_800000Ints.txt", "r")
+if file55.mode == 'r':
+    contents55 = file55.read()
 
 file33 = open("_tenPctUnsorted_1000000Ints.txt", "r")
 if file33.mode == 'r':
@@ -177,11 +257,31 @@ array32 = contents32.split()
 array33 = contents33.split()
 array34 = contents34.split()
 array35 = contents35.split()
+array36 = contents36.split()
+array37 = contents37.split()
+array38 = contents38.split()
+array39 = contents39.split()
+array40 = contents40.split()
+array41 = contents41.split()
+array42 = contents42.split()
+array43 = contents43.split()
+array44 = contents44.split()
+array45 = contents45.split()
+array46 = contents46.split()
+array47 = contents47.split()
+array48 = contents48.split()
+array49 = contents49.split()
+array50 = contents50.split()
+array51 = contents51.split()
+array52 = contents52.split()
+array53 = contents53.split()
+array54 = contents54.split()
+array55 = contents55.split()
 
-arraySetBinaryDigits = [array1,array2,array3,array4,array5,array35,array6]
-arraySetRevSorted = [array7,array13,array8,array9,array10,array11,array12]
-arraySetRandom = [array15,array14,array16,array17,array18,array19,array20]
-arraySetFiftyUnsorted = [array21,array27,array22,array23,array24,array25,array26]
-arraySetTenUnSorted = [array28,array34,array29,array30,array31,array32,array33]
+arraySetBinaryDigits = [array1,array2,array3,array4,array5,array35,array36,array37,array38,array39,array6]
+arraySetRevSorted = [array7,array13,array8,array9,array10,array11,array40,array41,array42,array43,array12]
+arraySetRandom = [array15,array14,array16,array17,array18,array19,array44,array45,array46,array47,array20]
+arraySetFiftyUnsorted = [array21,array27,array22,array23,array24,array25,array48,array49,array50,array51,array26]
+arraySetTenUnSorted = [array28,array34,array29,array30,array31,array32,array52,array53,array54,array55,array33]
 
 
