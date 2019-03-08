@@ -22,7 +22,8 @@ def hoarePartition(arr,l,r):
         else:
             return j
 
-def quickSort(arr, l, r):
+
+def quickSortHoareWrapper(arr, l, r):
     # Sorts a subarray by quicksort
     # Input: Subarray of array arr[0 .. n -1] defined by its left and right
     # indices l and r
@@ -30,13 +31,10 @@ def quickSort(arr, l, r):
     if l < r:
         s = hoarePartition(arr,l,r)
         #quickSort(arr,l,s-1)          # this code is same with the book but it does not work
-        quickSort(arr,l,s)                # fixed code, can you explain what is different
-        quickSort(arr,s+1,r)
+        quickSortHoareWrapper(arr,l,s)                # fixed code, can you explain what is different
+        quickSortHoareWrapper(arr,s+1,r)
 
-    # Driver code to test above
-arr = [10, 7, 8, 9, 1, 5]
-n = len(arr)
-quickSort(arr,0,n-1)
-print ("Sorted array is:")
-for i in range(n):
-    print ("%d" %arr[i]),
+
+def quickSortHoare(arr):
+    n = len(arr)
+    quickSortHoareWrapper(arr,0,n-1)

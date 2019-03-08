@@ -2,7 +2,7 @@ import time
 
 
 #pick a file from the directory to work with
-file = open("thousandInts.txt", "r")
+file = open("_10_binaryDigits.txt", "r")
 if file.mode == 'r':
     contents = file.read()
 
@@ -47,13 +47,13 @@ def mergeSort(array):
             k = k + 1
     #print("Merging ",array)
 
-start = time.time()
+"""start = time.time()
 mergeSort(array)
 end = time.time()
 print("time elapsed: " + str(float(end - start)))
 
-print("mergesort of list")
-print(array)
+#print("mergesort of list")
+print(array)"""
 
 
 
