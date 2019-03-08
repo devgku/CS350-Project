@@ -20,16 +20,20 @@ array = arraySetBinaryDigits        #change the variable to switch to different 
 #array = arraySetFiftyUnsorted          #comment out to use
 #array = arraySetTenUnSorted            #comment out to use
 
-now = datetime.datetime.now()           #print the time and date for the record
-print now
+
 
 number_of_array = len(array)        #set the range of the array
 for i in range (0, number_of_array):
-    start = time.time()
-    sorted(array[i])
-    #mergeSort(array[i])
-    #quickSortHoare(array[i])
-    #quickSortLomuto(array[i])
-    #quickSortOpenSource(array[i])
-    end = time.time()
-    print (end-start),
+    #now = datetime.datetime.now()           #print the time and date for the record
+    #print now
+    for j in range (0,10):
+        start = time.time()
+        #sorted(array[i])
+        mergeSort(array[i])
+        #quickSortHoare(array[i])
+        #quickSortLomuto(array[i])
+        #quickSortOpenSource(array[i])
+        #heapSort(array[i])
+        end = time.time()
+        print (end-start)
+    print "END"
