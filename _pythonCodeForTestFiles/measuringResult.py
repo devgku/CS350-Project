@@ -1,6 +1,6 @@
 # This file measure the time of sorting experimental data using the different sorting algorithms
 
-from inputData import arraySetBinaryDigits, arraySetRevSorted, arraySetRandom, arraySetFiftyUnsorted, arraySetTenUnSorted
+from inputData import arraySetBinaryDigits, arraySetRevSorted, arraySetRandom, arraySetFiftyUnsorted, arraySetTenUnSorted,arraySorted
 import time
 import sys
 import copy
@@ -19,8 +19,9 @@ sys.setrecursionlimit(recursion)    #this function increase the recursion limit.
 #array = arraySetBinaryDigits        #change the variable to switch to different test
 #array = arraySetRevSorted           #comment out to use
 #array = arraySetRandom               #comment out to use
-array = arraySetFiftyUnsorted          #comment out to use
+#array = arraySetFiftyUnsorted          #comment out to use
 #array = arraySetTenUnSorted            #comment out to use
+array = arraySorted
 array1 = copy.deepcopy(array)
 array2 = copy.deepcopy(array)
 array3 = copy.deepcopy(array)

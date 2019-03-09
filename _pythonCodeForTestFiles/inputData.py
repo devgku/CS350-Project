@@ -221,6 +221,51 @@ if file33.mode == 'r':
 file34 = open("_tenPctUnsorted_special.txt", "r")
 if file34.mode == 'r':
     contents34 = file34.read()
+
+file56 = open("__10_sorted_ints.txt", "r")
+if file56.mode == 'r':
+    contents56 = file56.read()
+
+file57 = open("__100_sorted_ints.txt", "r")
+if file57.mode == 'r':
+    contents57 = file57.read()
+
+file58 = open("__1000_sorted_ints.txt", "r")
+if file58.mode == 'r':
+    contents58 = file58.read()
+
+file59 = open("__10000_sorted_ints.txt", "r")
+if file59.mode == 'r':
+    contents59 = file59.read()
+
+file60 = open("__100000_sorted_ints.txt", "r")
+if file60.mode == 'r':
+    contents60 = file60.read()
+
+file61 = open("__200000_sorted_ints.txt", "r")
+if file61.mode == 'r':
+    contents61 = file61.read()
+
+file62 = open("__400000_sorted_ints.txt", "r")
+if file62.mode == 'r':
+    contents62 = file62.read()
+
+file63 = open("__600000_sorted_ints.txt", "r")
+if file63.mode == 'r':
+    contents63 = file63.read()
+
+file64 = open("__800000_sorted_ints.txt", "r")
+if file64.mode == 'r':
+    contents64 = file64.read()
+
+file65 = open("__1000000_sorted_ints.txt", "r")
+if file65.mode == 'r':
+    contents65 = file65.read()
+
+file66 = open("__sorted_special.txt", "r")
+if file66.mode == 'r':
+    contents66 = file66.read()
+
 #fills array object with file data
 array1 = contents1.split()
 array2 = contents2.split()
@@ -277,11 +322,22 @@ array52 = contents52.split()
 array53 = contents53.split()
 array54 = contents54.split()
 array55 = contents55.split()
+array56 = contents56.split()
+array57 = contents57.split()
+array58 = contents58.split()
+array59 = contents59.split()
+array60 = contents60.split()
+array61 = contents61.split()
+array62 = contents62.split()
+array63 = contents63.split()
+array64 = contents64.split()
+array65 = contents65.split()
+array66 = contents66.split()
 
 arraySetBinaryDigits = [array1,array2,array3,array4,array5,array35,array36,array37,array38,array39,array6]
 arraySetRevSorted = [array7,array13,array8,array9,array10,array11,array40,array41,array42,array43,array12]
 arraySetRandom = [array15,array14,array16,array17,array18,array19,array44,array45,array46,array47,array20]
 arraySetFiftyUnsorted = [array21,array27,array22,array23,array24,array25,array48,array49,array50,array51,array26]
 arraySetTenUnSorted = [array28,array34,array29,array30,array31,array32,array52,array53,array54,array55,array33]
-
+arraySorted = [array56,array66,array57,array58,array59,array60,array61,array62,array63,array64,array65]
 
