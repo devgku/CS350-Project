@@ -3,11 +3,26 @@
 import random
 
 n = 0
-def randNums(n):    
-    for i in range(n):      
-       file.write("%d\n" % (random.randint(0,1)))
+def randNums(n):
+    array = []
+    for i in range(n):
+        array.append(random.randint(0,1))
+    return array
 
-# add name to file. Will generate n integers separated by \n 
+binaryArray10 = randNums(10)
+binaryArray50 = randNums(50)
+binaryArray100 = randNums(100)
+binaryArray1000 = randNums(1000)
+binaryArray10000 = randNums(10000)
+binaryArray100000 = randNums(100000)
+binaryArray200000 = randNums(200000)
+binaryArray400000 = randNums(400000)
+binaryArray600000 = randNums(600000)
+binaryArray800000 = randNums(800000)
+binaryArray1000000 = randNums(1000000)
+
+# add name to file. Will generate n integers separated by \n
+"""
 file = open("_10_binaryDigits.txt", "w+")
 randNums(10)                
 file.close()
@@ -51,5 +66,4 @@ file.close()
 file = open("_1000000_binaryDigits.txt", "w+")
 randNums(1000000)                
 file.close()
-
-
+"""

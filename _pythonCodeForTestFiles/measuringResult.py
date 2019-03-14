@@ -19,10 +19,10 @@ sys.setrecursionlimit(recursion)    #this function increase the recursion limit.
 #array = arraySetBinaryDigits        #change the variable to switch to different test
 #array = arraySetRevSorted           #comment out to use
 #array = arraySetRandom               #comment out to use
-#array = arraySetFiftyUnsorted          #comment out to use
+array = arraySetFiftyUnsorted          #comment out to use
 #array = arraySetTenUnSorted            #comment out to use
-array = arraySorted
-array1 = copy.deepcopy(array)
+#array = arraySorted
+"""array1 = copy.deepcopy(array)
 array2 = copy.deepcopy(array)
 array3 = copy.deepcopy(array)
 array4 = copy.deepcopy(array)
@@ -40,6 +40,12 @@ sys.setrecursionlimit(1000000)
 
 number_of_element = len(array_set)
 number_of_array = len(array)        #set the range of the array
+"""
+print array[0]
+sortedArray = quickSort(array[0])
+print ("Sorted array is:")
+print (sortedArray)
+"""
 for j in range(0,number_of_element):
     for i in range (0, number_of_array):
         #now = datetime.datetime.now()           #print the time and date for the record
@@ -48,7 +54,7 @@ for j in range(0,number_of_element):
         #sorted(array[i])
         #mergeSort(array[i])
         quickSortHoare(array_set[j][i])
-        #quickSortLomuto(array[i])
+        #quickSortLomuto(array_set[j][i])
         #quickSortOpenSource(array[i])
         #heapSort(array[i])
         #array[i] = quickSort(array[i])
@@ -108,4 +114,4 @@ for j in range(0,number_of_element):
         print (end-start)
     print "END"
 print "----------------------------------"
-
+"""
