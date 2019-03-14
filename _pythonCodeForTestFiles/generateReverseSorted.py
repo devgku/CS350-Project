@@ -1,7 +1,25 @@
 import random
 import time
 
+def makeArray(n):
+    array = []
+    for i in range(n,0,-1):
+        array.append(i)
+    return array
 
+arrayReversed10 = makeArray(10)
+arrayReversed50 = makeArray(50)
+arrayReversed100 = makeArray(100)
+arrayReversed1000 = makeArray(1000)
+arrayReversed10000 = makeArray(10000)
+arrayReversed100000 = makeArray(100000)
+arrayReversed200000 = makeArray(200000)
+arrayReversed400000 = makeArray(400000)
+arrayReversed600000 = makeArray(600000)
+arrayReversed800000 = makeArray(800000)
+arrayReversed1000000 = makeArray(1000000)
+
+"""
 #reverse sorted order data set.
 
 contents = []
@@ -34,7 +52,7 @@ if file.mode == 'r':
 file.close()
 
 #creates a file to 
-file = open("__10_revSorted_Ints.txt", "w+")
+file = open("__10_revReversed_Ints.txt", "w+")
 revNums(10, contents)                
 file.close()
 
@@ -47,7 +65,7 @@ file.close()
 
 
 #pick a file to work with
-file = open("__100_revSorted_Ints.txt", "w+")
+file = open("__100_revReversed_Ints.txt", "w+")
 revNums(100, contents)                
 file.close()
 
@@ -58,7 +76,7 @@ if file.mode == 'r':
 file.close()
 
 
-file = open("__1000_revSorted_Ints.txt", "w+")
+file = open("__1000_revReversed_Ints.txt", "w+")
 revNums(1000, contents)                
 file.close()
 
@@ -69,7 +87,7 @@ if file.mode == 'r':
    contents = file.read()
 file.close()
 
-file = open("__10000_revSorted_Ints.txt", "w+")
+file = open("__10000_revReversed_Ints.txt", "w+")
 revNums(10000, contents)                
 file.close()
 
@@ -80,7 +98,7 @@ if file.mode == 'r':
    contents = file.read()
 file.close()
 
-file = open("__100000_revSorted_Ints.txt", "w+")
+file = open("__100000_revReversed_Ints.txt", "w+")
 revNums(100000, contents)
 file.close()
 
@@ -90,7 +108,7 @@ if file.mode == 'r':
     contents = file.read()
 file.close()
 
-file = open("__200000_revSorted_Ints.txt", "w+")
+file = open("__200000_revReversed_Ints.txt", "w+")
 revNums(200000, contents)
 file.close()
 
@@ -100,7 +118,7 @@ if file.mode == 'r':
     contents = file.read()
 file.close()
 
-file = open("__400000_revSorted_Ints.txt", "w+")
+file = open("__400000_revReversed_Ints.txt", "w+")
 revNums(400000, contents)
 file.close()
 
@@ -110,7 +128,7 @@ if file.mode == 'r':
     contents = file.read()
 file.close()
 
-file = open("__600000_revSorted_Ints.txt", "w+")
+file = open("__600000_revReversed_Ints.txt", "w+")
 revNums(600000, contents)
 file.close()
 
@@ -120,7 +138,7 @@ if file.mode == 'r':
     contents = file.read()
 file.close()
 
-file = open("__800000_revSorted_Ints.txt", "w+")
+file = open("__800000_revReversed_Ints.txt", "w+")
 revNums(800000, contents)
 file.close()
 
@@ -131,6 +149,7 @@ if file.mode == 'r':
 file.close()
 
 
-file = open("__1000000_revSorted_Ints.txt", "w+")
+file = open("__1000000_revReversed_Ints.txt", "w+")
 revNums(1000000, contents)
 file.close()
+"""
