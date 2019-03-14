@@ -26,9 +26,11 @@ arraySorted600000 = makeArray(600000,percentSorted)
 arraySorted800000 = makeArray(800000,percentSorted)
 arraySorted1000000 = makeArray(1000000,percentSorted)
 
+arraySorted = [arraySorted10,arraySorted50,arraySorted100,arraySorted1000,arraySorted10000,arraySorted100000, arraySorted200000, arraySorted400000, arraySorted600000, arraySorted800000, arraySorted1000000]
+
 percentSorted = 0.9
 arrayNearlySorted10 = makeArray(10,percentSorted)
-arrayNearlyrted50 = makeArray(50,percentSorted)
+arrayNearlySorted50 = makeArray(50,percentSorted)
 arrayNearlySorted100 = makeArray(100,percentSorted)
 arrayNearlySorted1000 = makeArray(1000,percentSorted)
 arrayNearlySorted10000 = makeArray(10000,percentSorted)
@@ -38,6 +40,8 @@ arrayNearlySorted400000 = makeArray(400000,percentSorted)
 arrayNearlySorted600000 = makeArray(600000,percentSorted)
 arrayNearlySorted800000 = makeArray(800000,percentSorted)
 arrayNearlySorted1000000 = makeArray(1000000,percentSorted)
+
+arraySetTenUnSorted  = [arrayNearlySorted10,arrayNearlySorted50,arrayNearlySorted100,arrayNearlySorted1000,arrayNearlySorted10000,arrayNearlySorted100000, arrayNearlySorted200000, arrayNearlySorted400000, arrayNearlySorted600000, arrayNearlySorted800000, arrayNearlySorted1000000]
 
 percentSorted = 0.5
 arrayHalfSorted10 = makeArray(10,percentSorted)
@@ -51,6 +55,8 @@ arrayHalfSorted400000 = makeArray(400000,percentSorted)
 arrayHalfSorted600000 = makeArray(600000,percentSorted)
 arrayHalfSorted800000 = makeArray(800000,percentSorted)
 arrayHalfSorted1000000 = makeArray(1000000,percentSorted)
+
+arraySetFiftyUnsorted = [arrayHalfSorted10,arrayHalfSorted50,arrayHalfSorted100,arrayHalfSorted1000,arrayHalfSorted10000,arrayHalfSorted100000, arrayHalfSorted200000, arrayHalfSorted400000, arrayHalfSorted600000, arrayHalfSorted800000, arrayHalfSorted1000000]
 
 """
 #reverse sorted order data set.

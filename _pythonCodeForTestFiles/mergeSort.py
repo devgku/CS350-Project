@@ -1,6 +1,6 @@
 import time
 
-
+"""
 #pick a file from the directory to work with
 file = open("_10_binaryDigits.txt", "r")
 if file.mode == 'r':
@@ -10,7 +10,7 @@ if file.mode == 'r':
 array = contents.split()
 #can use this library function to confirm the sort, if desired
 #a0 = sorted(map(int, array))
-#print(a0)
+#print(a0)"""
 
 
 

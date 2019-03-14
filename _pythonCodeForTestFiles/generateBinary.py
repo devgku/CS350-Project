@@ -21,6 +21,8 @@ binaryArray600000 = randNums(600000)
 binaryArray800000 = randNums(800000)
 binaryArray1000000 = randNums(1000000)
 
+arraySetBinaryDigits = [binaryArray10,binaryArray50,binaryArray100,binaryArray1000,binaryArray10000,binaryArray100000, binaryArray200000, binaryArray400000, binaryArray600000, binaryArray800000, binaryArray1000000]
+
 # add name to file. Will generate n integers separated by \n
 """
 file = open("_10_binaryDigits.txt", "w+")

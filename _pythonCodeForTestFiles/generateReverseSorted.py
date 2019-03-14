@@ -7,6 +7,7 @@ def makeArray(n):
         array.append(i)
     return array
 
+
 arrayReversed10 = makeArray(10)
 arrayReversed50 = makeArray(50)
 arrayReversed100 = makeArray(100)
@@ -18,6 +19,8 @@ arrayReversed400000 = makeArray(400000)
 arrayReversed600000 = makeArray(600000)
 arrayReversed800000 = makeArray(800000)
 arrayReversed1000000 = makeArray(1000000)
+
+arraySetRevSorted = [arrayReversed10,arrayReversed50,arrayReversed100,arrayReversed1000,arrayReversed10000,arrayReversed100000, arrayReversed200000, arrayReversed400000, arrayReversed600000, arrayReversed800000, arrayReversed1000000]
 
 """
 #reverse sorted order data set.

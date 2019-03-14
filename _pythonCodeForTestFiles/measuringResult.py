@@ -1,28 +1,32 @@
 # This file measure the time of sorting experimental data using the different sorting algorithms
 
-from inputData import arraySetBinaryDigits, arraySetRevSorted, arraySetRandom, arraySetFiftyUnsorted, arraySetTenUnSorted,arraySorted
+from generateBinary import arraySetBinaryDigits
+from generateRandom import arraySetRandom
+from generateReverseSorted import arraySetRevSorted
+from generateSorted import arraySetFiftyUnsorted
+from generateSorted import arraySetTenUnSorted
+from generateSorted import arraySorted
 import time
 import sys
 import copy
-import datetime
 
 from heapSort import heapSort
 from mergeSort import mergeSort
 from hoarePartition import quickSortHoare
 from lomutoPartition import quickSortLomuto
-from quickSortOpenSource import quickSortOpenSource
 from quickSortOpenSource2 import quickSort
 
 recursion = 1000000
 sys.setrecursionlimit(recursion)    #this function increase the recursion limit.
 
-#array = arraySetBinaryDigits        #change the variable to switch to different test
+array = arraySetBinaryDigits        #change the variable to switch to different test
 #array = arraySetRevSorted           #comment out to use
 #array = arraySetRandom               #comment out to use
-array = arraySetFiftyUnsorted          #comment out to use
+#array = arraySetFiftyUnsorted          #comment out to use
 #array = arraySetTenUnSorted            #comment out to use
 #array = arraySorted
-"""array1 = copy.deepcopy(array)
+
+array1 = copy.deepcopy(array)
 array2 = copy.deepcopy(array)
 array3 = copy.deepcopy(array)
 array4 = copy.deepcopy(array)
@@ -41,10 +45,16 @@ sys.setrecursionlimit(1000000)
 number_of_element = len(array_set)
 number_of_array = len(array)        #set the range of the array
 """
-print array[0]
-sortedArray = quickSort(array[0])
+print array[5]
+array[5] = quickSort(array[5])
+#quickSortLomuto(array[3])
+#quickSortHoare(array[3])
+#mergeSort(array[11])
+#heapSort(array[3])
 print ("Sorted array is:")
-print (sortedArray)
+print (array[5])
+#print sortedArray
+
 """
 for j in range(0,number_of_element):
     for i in range (0, number_of_array):
@@ -111,7 +121,7 @@ for j in range(0,number_of_element):
         #heapSort(array_set2[j][i])
         array_set3[j][i] = quickSort(array_set3[j][i])
         end = time.time()
+        print len(array_set3[j][i])
         print (end-start)
     print "END"
 print "----------------------------------"
-"""
